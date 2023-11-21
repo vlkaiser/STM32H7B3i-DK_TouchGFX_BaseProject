@@ -1,2 +1,3 @@
-C:/Users/vkaiser.JAKTOOL/Documents/_LocalRepo/_STM32/TouchGFX_Workshop/STM32HB3i-DK_TouchGFX_BaseProject/TouchGFX/gui/src/model/Model.cpp:4:1:Model::Model()	16	static
-C:/Users/vkaiser.JAKTOOL/Documents/_LocalRepo/_STM32/TouchGFX_Workshop/STM32HB3i-DK_TouchGFX_BaseProject/TouchGFX/gui/src/model/Model.cpp:9:6:void Model::tick()	16	static
+C:/Users/vkaiser.JAKTOOL/Documents/_LocalRepo/_STM32/TouchGFX_Workshop/STM32HB3i-DK_TouchGFX_BaseProject/TouchGFX/gui/src/model/Model.cpp:6:1:Model::Model()	16	static
+C:/Users/vkaiser.JAKTOOL/Documents/_LocalRepo/_STM32/TouchGFX_Workshop/STM32HB3i-DK_TouchGFX_BaseProject/TouchGFX/gui/src/model/Model.cpp:18:6:void Model::tick()	16	static
+C:/Users/vkaiser.JAKTOOL/Documents/_LocalRepo/_STM32/TouchGFX_Workshop/STM32HB3i-DK_TouchGFX_BaseProject/TouchGFX/gui/src/model/Model.cpp:33:6:void Model::toggleHwLed()	16	static

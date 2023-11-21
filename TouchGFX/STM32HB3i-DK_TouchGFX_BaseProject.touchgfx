@@ -2,7 +2,7 @@
   "Application": {
     "Screens": [
       {
-        "Name": "Screen1",
+        "Name": "Screen_Home",
         "Components": [
           {
             "Type": "Box",
@@ -21,7 +21,89 @@
             "X": 184,
             "Y": 116,
             "Width": 113,
-            "Height": 20,
+            "Height": 24,
+            "TextId": "__SingleUse_WCML",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 250,
+              "Green": 247,
+              "Blue": 247
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "btn_LEDScreen",
+            "X": 167,
+            "Y": 180,
+            "Width": 146,
+            "Height": 70,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "TextButtonStyle",
+                "Y": 10,
+                "TextId": "__SingleUse_4YQX",
+                "TextRotation": "0",
+                "ColorReleased": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "ColorPressed": {
+                  "Red": 10,
+                  "Green": 10,
+                  "Blue": 10
+                }
+              },
+              {
+                "Type": "ImageButtonStyle",
+                "LockFlexButtonToImageSize": true,
+                "ImageReleased": "button_large_released.png",
+                "ImagePressed": "button_large_pressed.png"
+              }
+            ]
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "GoTo_Screen_LED",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "btn_LEDScreen"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionCover",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "Screen_LED"
+            }
+          }
+        ]
+      },
+      {
+        "Name": "Screen_LED",
+        "Components": [
+          {
+            "Type": "Box",
+            "Name": "background",
+            "Width": 480,
+            "Height": 272,
+            "Color": {
+              "Red": 16,
+              "Green": 8,
+              "Blue": 94
+            }
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textHello",
+            "X": 184,
+            "Y": 17,
+            "Width": 119,
+            "Height": 24,
             "TextId": "__SingleUse_GJT6",
             "TextRotation": "0",
             "Color": {
@@ -30,9 +112,201 @@
               "Blue": 247
             },
             "AutoSize": true
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "Btn_HW_LED",
+            "X": 41,
+            "Y": 94,
+            "Width": 80,
+            "Height": 84,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "TextButtonStyle",
+                "Y": 22,
+                "TextId": "__SingleUse_5NF2",
+                "TextRotation": "0",
+                "ColorReleased": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "ColorPressed": {
+                  "Red": 10,
+                  "Green": 10,
+                  "Blue": 10
+                }
+              },
+              {
+                "Type": "ImageButtonStyle",
+                "LockFlexButtonToImageSize": true,
+                "ImageReleased": "button_round_released.png",
+                "ImagePressed": "button_round_pressed.png"
+              }
+            ]
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "Btn_SW_LED",
+            "X": 357,
+            "Y": 94,
+            "Width": 80,
+            "Height": 84,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "TextButtonStyle",
+                "Y": 22,
+                "TextId": "__SingleUse_GIAB",
+                "TextRotation": "0",
+                "ColorReleased": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "ColorPressed": {
+                  "Red": 10,
+                  "Green": 10,
+                  "Blue": 10
+                }
+              },
+              {
+                "Type": "ImageButtonStyle",
+                "LockFlexButtonToImageSize": true,
+                "ImageReleased": "button_round_released.png",
+                "ImagePressed": "button_round_pressed.png"
+              }
+            ]
+          },
+          {
+            "Type": "Image",
+            "Name": "SW_LED_Off",
+            "X": 154,
+            "Y": 94,
+            "Width": 172,
+            "Height": 114,
+            "RelativeFilename": "led_off.png"
+          },
+          {
+            "Type": "Image",
+            "Name": "SW_LED_On",
+            "X": 154,
+            "Y": 94,
+            "Width": 172,
+            "Height": 114,
+            "Visible": false,
+            "RelativeFilename": "led_on.png"
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1",
+            "X": 27,
+            "Y": 172,
+            "Width": 109,
+            "Height": 12,
+            "TextId": "__SingleUse_8P9W",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 30,
+              "Green": 156,
+              "Blue": 178
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "TextArea",
+            "Name": "textArea1_1",
+            "X": 350,
+            "Y": 172,
+            "Width": 94,
+            "Height": 12,
+            "TextId": "__SingleUse_2A6N",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 30,
+              "Green": 156,
+              "Blue": 178
+            },
+            "AutoSize": true
+          },
+          {
+            "Type": "FlexButton",
+            "Name": "btn_HomeScreen",
+            "X": 167,
+            "Y": 202,
+            "Width": 146,
+            "Height": 70,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "TextButtonStyle",
+                "Y": 10,
+                "TextId": "__SingleUse_WO1U",
+                "TextRotation": "0",
+                "ColorReleased": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "ColorPressed": {
+                  "Red": 10,
+                  "Green": 10,
+                  "Blue": 10
+                }
+              },
+              {
+                "Type": "ImageButtonStyle",
+                "LockFlexButtonToImageSize": true,
+                "ImageReleased": "button_large_released.png",
+                "ImagePressed": "button_large_pressed.png"
+              }
+            ]
           }
         ],
-        "Interactions": []
+        "Interactions": [
+          {
+            "InteractionName": "SWToggleSwLED",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "Btn_SW_LED"
+            },
+            "Action": {
+              "Type": "ActionExecuteCode",
+              "Code": "presenter->swButtonSwLedToggle();"
+            }
+          },
+          {
+            "InteractionName": "SWToggleHwLED",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "Btn_HW_LED"
+            },
+            "Action": {
+              "Type": "ActionExecuteCode",
+              "Code": "presenter->swButtonHwLedToggle();"
+            }
+          },
+          {
+            "InteractionName": "GoTo_Screen_Home",
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "btn_HomeScreen"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionCover",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "Screen_Home"
+            }
+          }
+        ]
       }
     ],
     "CustomContainerDefinitions": [],
@@ -42,7 +316,7 @@
       "Height": 272
     },
     "SelectedColorDepth": 24,
-    "StartupScreenName": "Screen1",
+    "StartupScreenName": "Screen_LED",
     "SelectedStartupLanguage": "GB",
     "TouchGfxPath": "../Middlewares/ST/touchgfx",
     "UIPath": ".",

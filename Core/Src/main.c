@@ -643,11 +643,21 @@ static void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 4 */
+
+void TOGGLE_LED3()
+{
+	//Toggle Red On-Board LED
+	HAL_GPIO_TogglePin(GPIOG, LED3_Pin);
+}
+
+
 volatile uint32_t userButtonPressed = 0;
+
 void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 {
-	if (GPIO_Pin == USER_BTN_Pin)
+	if (GPIO_Pin == GPIO_PIN_13)
 	{
+		//On-Board User Button (Blue)
 		userButtonPressed = 1;
 	}
 }

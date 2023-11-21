@@ -14,6 +14,9 @@ public:
     }
 
     void tick();
+
+    void toggleHwLed();
+
 protected:
     ModelListener* modelListener;
 };

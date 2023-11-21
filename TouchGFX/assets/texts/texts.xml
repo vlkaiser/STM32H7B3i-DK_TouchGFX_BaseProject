@@ -6,8 +6,29 @@
   <Texts>
     <TextGroup Id="Group1" />
     <TextGroup Id="Unsorted">
-      <Text Id="__SingleUse_GJT6" Alignment="Left" TypographyId="Default">
+      <Text Id="__SingleUse_WO1U" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">Back</Translation>
+      </Text>
+      <Text Id="__SingleUse_4YQX" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">Next</Translation>
+      </Text>
+      <Text Id="__SingleUse_WCML" Alignment="Left" TypographyId="Default">
         <Translation Language="GB">Hello World</Translation>
+      </Text>
+      <Text Id="__SingleUse_2A6N" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">Toggle Virtual LED</Translation>
+      </Text>
+      <Text Id="__SingleUse_8P9W" Alignment="Left" TypographyId="Small">
+        <Translation Language="GB">Toggle On-Board LED</Translation>
+      </Text>
+      <Text Id="__SingleUse_GIAB" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">SW</Translation>
+      </Text>
+      <Text Id="__SingleUse_5NF2" Alignment="Center" TypographyId="Default">
+        <Translation Language="GB">HW</Translation>
+      </Text>
+      <Text Id="__SingleUse_GJT6" Alignment="Left" TypographyId="Default">
+        <Translation Language="GB">Toggle LEDs</Translation>
       </Text>
     </TextGroup>
   </Texts>

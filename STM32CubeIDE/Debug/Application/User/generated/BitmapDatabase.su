@@ -1,2 +1,2 @@
-C:/Users/vkaiser.JAKTOOL/Documents/_LocalRepo/_STM32/TouchGFX_Workshop/STM32HB3i-DK_TouchGFX_BaseProject/TouchGFX/generated/images/src/BitmapDatabase.cpp:14:37:const touchgfx::Bitmap::BitmapData* BitmapDatabase::getInstance()	4	static
-C:/Users/vkaiser.JAKTOOL/Documents/_LocalRepo/_STM32/TouchGFX_Workshop/STM32HB3i-DK_TouchGFX_BaseProject/TouchGFX/generated/images/src/BitmapDatabase.cpp:19:10:uint16_t BitmapDatabase::getInstanceSize()	4	static
+C:/Users/vkaiser.JAKTOOL/Documents/_LocalRepo/_STM32/TouchGFX_Workshop/STM32HB3i-DK_TouchGFX_BaseProject/TouchGFX/generated/images/src/BitmapDatabase.cpp:25:37:const touchgfx::Bitmap::BitmapData* BitmapDatabase::getInstance()	4	static
+C:/Users/vkaiser.JAKTOOL/Documents/_LocalRepo/_STM32/TouchGFX_Workshop/STM32HB3i-DK_TouchGFX_BaseProject/TouchGFX/generated/images/src/BitmapDatabase.cpp:30:10:uint16_t BitmapDatabase::getInstanceSize()	4	static
