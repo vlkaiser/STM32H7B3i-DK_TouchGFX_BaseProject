@@ -29,6 +29,11 @@ To get a local copy up and running follow, please download this zipfile and revi
 ________________________
 <!-- Troubleshooting -->
 ## Troubleshooting
+* If CubeMX code is regenerated, it may prompt regarding: 
+    ```sh 
+    "The USE_NEWLIB_REENTRANT must be set in order to make sure that newlib is fully reentrant.   The option will increase the RAM usage. Enable this option under FreeRTOS > Advanced Settings > USE_NEWLIB_REENTRANT".  
+    ```  
+    Continue generating code without enabling for this application.  
 * The Debug Configuration -> Debugger -> External Loader must be set to    
     ```sh
     MX25LM51245G_STM32H7B3I-DISCO.stldr

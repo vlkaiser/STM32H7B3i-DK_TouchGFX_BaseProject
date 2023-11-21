@@ -53,12 +53,21 @@ LTDC_HandleTypeDef hltdc;
 
 OSPI_HandleTypeDef hospi1;
 
+UART_HandleTypeDef huart1;
+
 /* Definitions for GUI_Task */
 osThreadId_t GUI_TaskHandle;
 const osThreadAttr_t GUI_Task_attributes = {
   .name = "GUI_Task",
   .stack_size = 1024 * 4,
   .priority = (osPriority_t) osPriorityNormal,
+};
+/* Definitions for LEDblink_task */
+osThreadId_t LEDblink_taskHandle;
+const osThreadAttr_t LEDblink_task_attributes = {
+  .name = "LEDblink_task",
+  .stack_size = 128 * 4,
+  .priority = (osPriority_t) osPriorityLow,
 };
 /* USER CODE BEGIN PV */
 
@@ -74,7 +83,9 @@ static void MX_DMA2D_Init(void);
 static void MX_I2C4_Init(void);
 static void MX_LTDC_Init(void);
 static void MX_OCTOSPI1_Init(void);
+static void MX_USART1_UART_Init(void);
 void TouchGFX_Task(void *argument);
+void Start_LEDblink_task(void *argument);
 
 /* USER CODE BEGIN PFP */
 
@@ -127,6 +138,7 @@ int main(void)
   MX_I2C4_Init();
   MX_LTDC_Init();
   MX_OCTOSPI1_Init();
+  MX_USART1_UART_Init();
   MX_TouchGFX_Init();
   /* Call PreOsInit function */
   MX_TouchGFX_PreOSInit();
@@ -156,6 +168,9 @@ int main(void)
   /* Create the thread(s) */
   /* creation of GUI_Task */
   GUI_TaskHandle = osThreadNew(TouchGFX_Task, NULL, &GUI_Task_attributes);
+
+  /* creation of LEDblink_task */
+  LEDblink_taskHandle = osThreadNew(Start_LEDblink_task, NULL, &LEDblink_task_attributes);
 
   /* USER CODE BEGIN RTOS_THREADS */
   /* add threads, ... */
@@ -485,6 +500,57 @@ static void MX_OCTOSPI1_Init(void)
 }
 
 /**
+  * @brief USART1 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_USART1_UART_Init(void)
+{
+
+  /* USER CODE BEGIN USART1_Init 0 */
+
+  /* USER CODE END USART1_Init 0 */
+
+  /* USER CODE BEGIN USART1_Init 1 */
+
+  /* USER CODE END USART1_Init 1 */
+  huart1.Instance = USART1;
+  huart1.Init.BaudRate = 115200;
+  huart1.Init.WordLength = UART_WORDLENGTH_8B;
+  huart1.Init.StopBits = UART_STOPBITS_1;
+  huart1.Init.Parity = UART_PARITY_NONE;
+  huart1.Init.Mode = UART_MODE_TX_RX;
+  huart1.Init.HwFlowCtl = UART_HWCONTROL_NONE;
+  huart1.Init.OverSampling = UART_OVERSAMPLING_16;
+  huart1.Init.OneBitSampling = UART_ONE_BIT_SAMPLE_DISABLE;
+  huart1.Init.ClockPrescaler = UART_PRESCALER_DIV1;
+  huart1.AdvancedInit.AdvFeatureInit = UART_ADVFEATURE_NO_INIT;
+  if (HAL_UART_Init(&huart1) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  if (HAL_UARTEx_SetTxFifoThreshold(&huart1, UART_TXFIFO_THRESHOLD_1_8) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  if (HAL_UARTEx_SetRxFifoThreshold(&huart1, UART_RXFIFO_THRESHOLD_1_8) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  if (HAL_UARTEx_DisableFifoMode(&huart1) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN USART1_Init 2 */
+#ifdef DEBUG
+  uint8_t MSG[] = "Initializing...\n\r";
+  HAL_UART_Transmit(&huart1, MSG, sizeof(MSG),HAL_MAX_DELAY);
+#endif
+  /* USER CODE END USART1_Init 2 */
+
+}
+
+/**
   * @brief GPIO Initialization Function
   * @param None
   * @retval None
@@ -603,6 +669,29 @@ __weak void TouchGFX_Task(void *argument)
     osDelay(1);
   }
   /* USER CODE END 5 */
+}
+
+/* USER CODE BEGIN Header_Start_LEDblink_task */
+/**
+* @brief Function implementing the LEDblink_task thread.
+* @param argument: Not used
+* @retval None
+*/
+/* USER CODE END Header_Start_LEDblink_task */
+void Start_LEDblink_task(void *argument)
+{
+  /* USER CODE BEGIN Start_LEDblink_task */
+  /* Infinite loop */
+  for(;;)
+  {
+	  HAL_GPIO_TogglePin(LED2_GPIO_Port, LED2_Pin);
+	#ifdef DEBUG
+	  uint8_t MSG[] = "Blink\n\r";
+	  HAL_UART_Transmit(&huart1, MSG, sizeof(MSG),HAL_MAX_DELAY);
+	#endif
+	  osDelay(2000);
+  }
+  /* USER CODE END Start_LEDblink_task */
 }
 
 /* MPU Configuration */

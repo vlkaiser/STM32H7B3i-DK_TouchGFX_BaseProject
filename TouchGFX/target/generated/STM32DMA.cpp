@@ -41,7 +41,6 @@ extern "C" {
     static void DMA2D_XferCpltCallback(DMA2D_HandleTypeDef* handle)
     {
         (void)handle; // Unused argument
-        SCB_CleanInvalidateDCache();
         HAL::getInstance()->signalDMAInterrupt();
     }
 }

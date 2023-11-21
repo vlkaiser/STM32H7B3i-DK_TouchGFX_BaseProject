@@ -9,3 +9,5 @@ C:/Users/vkaiser.JAKTOOL/Documents/_LocalRepo/_STM32/TouchGFX_Workshop/STM32HB3i
 C:/Users/vkaiser.JAKTOOL/Documents/_LocalRepo/_STM32/TouchGFX_Workshop/STM32HB3i-DK_TouchGFX_BaseProject/Core/Src/stm32h7xx_hal_msp.c:361:6:HAL_LTDC_MspDeInit	2
 C:/Users/vkaiser.JAKTOOL/Documents/_LocalRepo/_STM32/TouchGFX_Workshop/STM32HB3i-DK_TouchGFX_BaseProject/Core/Src/stm32h7xx_hal_msp.c:426:6:HAL_OSPI_MspInit	3
 C:/Users/vkaiser.JAKTOOL/Documents/_LocalRepo/_STM32/TouchGFX_Workshop/STM32HB3i-DK_TouchGFX_BaseProject/Core/Src/stm32h7xx_hal_msp.c:472:6:HAL_OSPI_MspDeInit	2
+C:/Users/vkaiser.JAKTOOL/Documents/_LocalRepo/_STM32/TouchGFX_Workshop/STM32HB3i-DK_TouchGFX_BaseProject/Core/Src/stm32h7xx_hal_msp.c:498:6:HAL_UART_MspInit	3
+C:/Users/vkaiser.JAKTOOL/Documents/_LocalRepo/_STM32/TouchGFX_Workshop/STM32HB3i-DK_TouchGFX_BaseProject/Core/Src/stm32h7xx_hal_msp.c:545:6:HAL_UART_MspDeInit	2

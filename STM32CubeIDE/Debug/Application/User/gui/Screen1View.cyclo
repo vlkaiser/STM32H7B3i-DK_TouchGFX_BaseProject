@@ -6,4 +6,4 @@
 ../../TouchGFX/gui/include/gui/screen1_screen/Screen1View.hpp:11:13:virtual Screen1View::~Screen1View()	1
 C:/Users/vkaiser.JAKTOOL/Documents/_LocalRepo/_STM32/TouchGFX_Workshop/STM32HB3i-DK_TouchGFX_BaseProject/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:3:1:Screen1View::Screen1View()	1
 C:/Users/vkaiser.JAKTOOL/Documents/_LocalRepo/_STM32/TouchGFX_Workshop/STM32HB3i-DK_TouchGFX_BaseProject/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:8:6:virtual void Screen1View::setupScreen()	1
-C:/Users/vkaiser.JAKTOOL/Documents/_LocalRepo/_STM32/TouchGFX_Workshop/STM32HB3i-DK_TouchGFX_BaseProject/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:13:6:virtual void Screen1View::tearDownScreen()	1
+C:/Users/vkaiser.JAKTOOL/Documents/_LocalRepo/_STM32/TouchGFX_Workshop/STM32HB3i-DK_TouchGFX_BaseProject/TouchGFX/gui/src/screen1_screen/Screen1View.cpp:14:6:virtual void Screen1View::tearDownScreen()	1

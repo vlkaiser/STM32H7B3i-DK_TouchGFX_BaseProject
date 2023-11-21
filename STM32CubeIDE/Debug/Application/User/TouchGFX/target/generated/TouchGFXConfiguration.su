@@ -52,7 +52,7 @@
 ../../TouchGFX/target/generated/TouchGFXGeneratedHAL.hpp:46:5:TouchGFXGeneratedHAL::TouchGFXGeneratedHAL(touchgfx::DMA_Interface&, touchgfx::LCD&, touchgfx::TouchController&, uint16_t, uint16_t)	32	static
 ../../TouchGFX/target/generated/TouchGFXGeneratedHAL.hpp:30:7:TouchGFXGeneratedHAL::~TouchGFXGeneratedHAL()	16	static
 ../../TouchGFX/target/generated/TouchGFXGeneratedHAL.hpp:30:7:virtual TouchGFXGeneratedHAL::~TouchGFXGeneratedHAL()	16	static
-../../TouchGFX/target/TouchGFXHAL.hpp:47:5:TouchGFXHAL::TouchGFXHAL(touchgfx::DMA_Interface&, touchgfx::LCD&, touchgfx::TouchController&, uint16_t, uint16_t)	32	static
+../../TouchGFX/target/TouchGFXHAL.hpp:52:5:TouchGFXHAL::TouchGFXHAL(touchgfx::DMA_Interface&, touchgfx::LCD&, touchgfx::TouchController&, uint16_t, uint16_t)	32	static
 ../../Middlewares/ST/touchgfx/framework/include/platform/driver/touch/TouchController.hpp:26:7:constexpr touchgfx::TouchController::TouchController()	16	static
 ../../TouchGFX/target/STM32TouchController.hpp:42:5:STM32TouchController::STM32TouchController()	16	static
 C:/Users/vkaiser.JAKTOOL/Documents/_LocalRepo/_STM32/TouchGFX_Workshop/STM32HB3i-DK_TouchGFX_BaseProject/TouchGFX/target/generated/TouchGFXConfiguration.cpp:40:6:void touchgfx_init()	32	static
@@ -66,8 +66,8 @@ C:/Users/vkaiser.JAKTOOL/Documents/_LocalRepo/_STM32/TouchGFX_Workshop/STM32HB3i
 ../../Middlewares/ST/touchgfx/framework/include/common/Partition.hpp:42:7:virtual touchgfx::Partition<touchgfx::meta::TypeList<Screen1View, touchgfx::meta::TypeList<touchgfx::meta::Nil, touchgfx::meta::Nil> >, 1>::~Partition()	16	static
 ../../Middlewares/ST/touchgfx/framework/include/common/Partition.hpp:42:7:touchgfx::Partition<touchgfx::meta::TypeList<Screen1Presenter, touchgfx::meta::TypeList<touchgfx::meta::Nil, touchgfx::meta::Nil> >, 1>::~Partition()	16	static
 ../../Middlewares/ST/touchgfx/framework/include/common/Partition.hpp:42:7:virtual touchgfx::Partition<touchgfx::meta::TypeList<Screen1Presenter, touchgfx::meta::TypeList<touchgfx::meta::Nil, touchgfx::meta::Nil> >, 1>::~Partition()	16	static
-../../TouchGFX/target/TouchGFXHAL.hpp:31:7:TouchGFXHAL::~TouchGFXHAL()	16	static
-../../TouchGFX/target/TouchGFXHAL.hpp:31:7:virtual TouchGFXHAL::~TouchGFXHAL()	16	static
+../../TouchGFX/target/TouchGFXHAL.hpp:36:7:TouchGFXHAL::~TouchGFXHAL()	16	static
+../../TouchGFX/target/TouchGFXHAL.hpp:36:7:virtual TouchGFXHAL::~TouchGFXHAL()	16	static
 ../../TouchGFX/generated/fonts/include/fonts/ApplicationFontProvider.hpp:29:7:ApplicationFontProvider::~ApplicationFontProvider()	16	static
 ../../TouchGFX/generated/fonts/include/fonts/ApplicationFontProvider.hpp:29:7:virtual ApplicationFontProvider::~ApplicationFontProvider()	16	static
 ../../Middlewares/ST/touchgfx/framework/include/platform/driver/lcd/LCD24bpp.hpp:39:7:touchgfx::LCD24bpp::~LCD24bpp()	16	static
