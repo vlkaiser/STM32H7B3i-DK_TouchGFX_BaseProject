@@ -1,0 +1,11 @@
+C:/Users/vkaiser.JAKTOOL/Documents/_LocalRepo/_STM32/TouchGFX_Workshop/STM32HB3i-DK_TouchGFX_BaseProject/Core/Src/stm32h7xx_hal_msp.c:64:6:HAL_MspInit	16	static
+C:/Users/vkaiser.JAKTOOL/Documents/_LocalRepo/_STM32/TouchGFX_Workshop/STM32HB3i-DK_TouchGFX_BaseProject/Core/Src/stm32h7xx_hal_msp.c:87:6:HAL_CRC_MspInit	24	static
+C:/Users/vkaiser.JAKTOOL/Documents/_LocalRepo/_STM32/TouchGFX_Workshop/STM32HB3i-DK_TouchGFX_BaseProject/Core/Src/stm32h7xx_hal_msp.c:109:6:HAL_CRC_MspDeInit	16	static
+C:/Users/vkaiser.JAKTOOL/Documents/_LocalRepo/_STM32/TouchGFX_Workshop/STM32HB3i-DK_TouchGFX_BaseProject/Core/Src/stm32h7xx_hal_msp.c:131:6:HAL_DMA2D_MspInit	24	static
+C:/Users/vkaiser.JAKTOOL/Documents/_LocalRepo/_STM32/TouchGFX_Workshop/STM32HB3i-DK_TouchGFX_BaseProject/Core/Src/stm32h7xx_hal_msp.c:156:6:HAL_DMA2D_MspDeInit	16	static
+C:/Users/vkaiser.JAKTOOL/Documents/_LocalRepo/_STM32/TouchGFX_Workshop/STM32HB3i-DK_TouchGFX_BaseProject/Core/Src/stm32h7xx_hal_msp.c:181:6:HAL_I2C_MspInit	240	static
+C:/Users/vkaiser.JAKTOOL/Documents/_LocalRepo/_STM32/TouchGFX_Workshop/STM32HB3i-DK_TouchGFX_BaseProject/Core/Src/stm32h7xx_hal_msp.c:227:6:HAL_I2C_MspDeInit	16	static
+C:/Users/vkaiser.JAKTOOL/Documents/_LocalRepo/_STM32/TouchGFX_Workshop/STM32HB3i-DK_TouchGFX_BaseProject/Core/Src/stm32h7xx_hal_msp.c:258:6:HAL_LTDC_MspInit	248	static
+C:/Users/vkaiser.JAKTOOL/Documents/_LocalRepo/_STM32/TouchGFX_Workshop/STM32HB3i-DK_TouchGFX_BaseProject/Core/Src/stm32h7xx_hal_msp.c:361:6:HAL_LTDC_MspDeInit	16	static
+C:/Users/vkaiser.JAKTOOL/Documents/_LocalRepo/_STM32/TouchGFX_Workshop/STM32HB3i-DK_TouchGFX_BaseProject/Core/Src/stm32h7xx_hal_msp.c:426:6:HAL_OSPI_MspInit	216	static
+C:/Users/vkaiser.JAKTOOL/Documents/_LocalRepo/_STM32/TouchGFX_Workshop/STM32HB3i-DK_TouchGFX_BaseProject/Core/Src/stm32h7xx_hal_msp.c:472:6:HAL_OSPI_MspDeInit	16	static
