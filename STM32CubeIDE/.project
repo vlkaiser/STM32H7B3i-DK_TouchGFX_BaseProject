@@ -198,14 +198,34 @@
 			<locationURI>PARENT-1-PROJECT_LOC/Middlewares/Third_Party/FatFs/src/diskio.c</locationURI>
 		</link>
 		<link>
+			<name>Middlewares/FatFs/diskio.h</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/Middlewares/Third_Party/FatFs/src/diskio.h</locationURI>
+		</link>
+		<link>
 			<name>Middlewares/FatFs/ff.c</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/Middlewares/Third_Party/FatFs/src/ff.c</locationURI>
 		</link>
 		<link>
+			<name>Middlewares/FatFs/ff.h</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/Middlewares/Third_Party/FatFs/src/ff.h</locationURI>
+		</link>
+		<link>
 			<name>Middlewares/FatFs/ff_gen_drv.c</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c</locationURI>
+		</link>
+		<link>
+			<name>Middlewares/FatFs/ff_gen_drv.h</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/Middlewares/Third_Party/FatFs/src/ff_gen_drv.h</locationURI>
+		</link>
+		<link>
+			<name>Middlewares/FatFs/integer.h</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/Middlewares/Third_Party/FatFs/src/integer.h</locationURI>
 		</link>
 		<link>
 			<name>Middlewares/FatFs/syscall.c</name>
