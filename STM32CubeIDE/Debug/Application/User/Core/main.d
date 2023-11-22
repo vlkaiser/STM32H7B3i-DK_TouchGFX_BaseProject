@@ -66,8 +66,7 @@ Application/User/Core/main.o: \
  ../../Core/Inc/stm32h7b3i_discovery_conf.h \
  ../../Drivers/BSP/STM32H7B3I-DK/stm32h7b3i_discovery_errno.h \
  ../../Drivers/BSP/STM32H7B3I-DK/../Components/mx25lm51245g/mx25lm51245g.h \
- ../../Core/Inc/mx25lm51245g_conf.h \
- ../../Drivers/BSP/Components/SDCard/SDCard.h
+ ../../Core/Inc/mx25lm51245g_conf.h ../../Core/Inc/SDCard.h
 ../../Core/Inc/main.h:
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h:
 ../../Core/Inc/stm32h7xx_hal_conf.h:
@@ -138,4 +137,4 @@ Application/User/Core/main.o: \
 ../../Drivers/BSP/STM32H7B3I-DK/stm32h7b3i_discovery_errno.h:
 ../../Drivers/BSP/STM32H7B3I-DK/../Components/mx25lm51245g/mx25lm51245g.h:
 ../../Core/Inc/mx25lm51245g_conf.h:
-../../Drivers/BSP/Components/SDCard/SDCard.h:
+../../Core/Inc/SDCard.h:

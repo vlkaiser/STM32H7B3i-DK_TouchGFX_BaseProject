@@ -263,6 +263,16 @@
 			<locationURI>PARENT-1-PROJECT_LOC/Middlewares/Third_Party/FreeRTOS/Source/timers.c</locationURI>
 		</link>
 		<link>
+			<name>Application/User/Core/SDCard.c</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/Core/Src/SDCard.c</locationURI>
+		</link>
+		<link>
+			<name>Application/User/Core/SDCard.h</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/Core/Inc/SDCard.h</locationURI>
+		</link>
+		<link>
 			<name>Application/User/Core/freertos.c</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/Core/Src/freertos.c</locationURI>

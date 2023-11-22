@@ -1,3 +1,4 @@
+"./Application/User/Core/SDCard.o"
 "./Application/User/Core/freertos.o"
 "./Application/User/Core/main.o"
 "./Application/User/Core/stm32h7xx_hal_msp.o"
@@ -43,7 +44,6 @@
 "./Application/User/gui/Model.o"
 "./Application/User/gui/Screen1Presenter.o"
 "./Application/User/gui/Screen1View.o"
-"./Drivers/BSP/Components/SDCard.o"
 "./Drivers/BSP/Components/ft5336.o"
 "./Drivers/BSP/Components/ft5336_reg.o"
 "./Drivers/BSP/Components/mx25lm51245g.o"

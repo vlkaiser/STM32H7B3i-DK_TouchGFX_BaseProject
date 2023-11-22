@@ -1,3 +1,0 @@
-../Drivers/BSP/Components/SDCard.c:25:6:Send_Uart	16	static
-../Drivers/BSP/Components/SDCard.c:32:6:Mount_SD	16	static
-../Drivers/BSP/Components/SDCard.c:39:6:Unmount_SD	16	static
