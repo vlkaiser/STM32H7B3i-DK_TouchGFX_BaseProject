@@ -84,8 +84,8 @@ all: main-build
 main-build: STM32HB3i-DK_TouchGFX_BaseProject.elf secondary-outputs
 
 # Tool invocations
-STM32HB3i-DK_TouchGFX_BaseProject.elf STM32HB3i-DK_TouchGFX_BaseProject.map: $(OBJS) $(USER_OBJS) C:\Users\vkaiser.JAKTOOL\Documents\_LocalRepo\_STM32\TouchGFX_Workshop\STM32HB3i-DK_TouchGFX_BaseProject\STM32CubeIDE\STM32H7B3LIHXQ_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-g++ -o "STM32HB3i-DK_TouchGFX_BaseProject.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m7 -T"C:\Users\vkaiser.JAKTOOL\Documents\_LocalRepo\_STM32\TouchGFX_Workshop\STM32HB3i-DK_TouchGFX_BaseProject\STM32CubeIDE\STM32H7B3LIHXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32HB3i-DK_TouchGFX_BaseProject.map" -Wl,--gc-sections -static -LC:/Users/vkaiser.JAKTOOL/Documents/_LocalRepo/_STM32/TouchGFX_Workshop/STM32HB3i-DK_TouchGFX_BaseProject/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+STM32HB3i-DK_TouchGFX_BaseProject.elf STM32HB3i-DK_TouchGFX_BaseProject.map: $(OBJS) $(USER_OBJS) C:\Users\vkaiser.JAKTOOL\Documents\_LocalRepo\_STM32\TouchGFX_Workshop\STM32H7B3i-DK_TouchGFX_BaseProject\STM32CubeIDE\STM32H7B3LIHXQ_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-g++ -o "STM32HB3i-DK_TouchGFX_BaseProject.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m7 -T"C:\Users\vkaiser.JAKTOOL\Documents\_LocalRepo\_STM32\TouchGFX_Workshop\STM32H7B3i-DK_TouchGFX_BaseProject\STM32CubeIDE\STM32H7B3LIHXQ_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32HB3i-DK_TouchGFX_BaseProject.map" -Wl,--gc-sections -static -LC:/Users/vkaiser.JAKTOOL/Documents/_LocalRepo/_STM32/TouchGFX_Workshop/STM32HB3i-DK_TouchGFX_BaseProject/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc -LC:/Users/vkaiser.JAKTOOL/Documents/_LocalRepo/_STM32/TouchGFX_Workshop/STM32H7B3i-DK_TouchGFX_BaseProject/Middlewares/ST/touchgfx/lib/core/cortex_m7/gcc --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
