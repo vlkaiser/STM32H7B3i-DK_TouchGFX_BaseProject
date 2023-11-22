@@ -35,6 +35,10 @@ Application/User/Core/main.o: \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_ospi.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h \
+ ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_sd.h \
+ ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_sdmmc.h \
+ ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_delayblock.h \
+ ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_sd_ex.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h \
@@ -50,12 +54,20 @@ Application/User/Core/main.o: \
  ../../Middlewares/Third_Party/FreeRTOS/Source/include/task.h \
  ../../Middlewares/Third_Party/FreeRTOS/Source/include/list.h \
  ../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h \
- ../../TouchGFX/App/app_touchgfx.h \
+ ../../FATFS/App/fatfs.h ../../Middlewares/Third_Party/FatFs/src/ff.h \
+ ../../Middlewares/Third_Party/FatFs/src/integer.h \
+ ../../FATFS/Target/ffconf.h ../../FATFS/Target/bsp_driver_sd.h \
+ ../../FATFS/Target/fatfs_platform.h \
+ ../../Middlewares/Third_Party/FatFs/src/ff_gen_drv.h \
+ ../../Middlewares/Third_Party/FatFs/src/diskio.h \
+ ../../Middlewares/Third_Party/FatFs/src/ff.h \
+ ../../FATFS/Target/sd_diskio.h ../../TouchGFX/App/app_touchgfx.h \
  ../../Drivers/BSP/STM32H7B3I-DK/stm32h7b3i_discovery_ospi.h \
  ../../Core/Inc/stm32h7b3i_discovery_conf.h \
  ../../Drivers/BSP/STM32H7B3I-DK/stm32h7b3i_discovery_errno.h \
  ../../Drivers/BSP/STM32H7B3I-DK/../Components/mx25lm51245g/mx25lm51245g.h \
- ../../Core/Inc/mx25lm51245g_conf.h
+ ../../Core/Inc/mx25lm51245g_conf.h \
+ ../../Drivers/BSP/Components/SDCard/SDCard.h
 ../../Core/Inc/main.h:
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h:
 ../../Core/Inc/stm32h7xx_hal_conf.h:
@@ -91,6 +103,10 @@ Application/User/Core/main.o: \
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_ospi.h:
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr.h:
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pwr_ex.h:
+../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_sd.h:
+../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_sdmmc.h:
+../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_delayblock.h:
+../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_sd_ex.h:
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim.h:
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h:
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h:
@@ -106,9 +122,20 @@ Application/User/Core/main.o: \
 ../../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:
 ../../Middlewares/Third_Party/FreeRTOS/Source/include/list.h:
 ../../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h:
+../../FATFS/App/fatfs.h:
+../../Middlewares/Third_Party/FatFs/src/ff.h:
+../../Middlewares/Third_Party/FatFs/src/integer.h:
+../../FATFS/Target/ffconf.h:
+../../FATFS/Target/bsp_driver_sd.h:
+../../FATFS/Target/fatfs_platform.h:
+../../Middlewares/Third_Party/FatFs/src/ff_gen_drv.h:
+../../Middlewares/Third_Party/FatFs/src/diskio.h:
+../../Middlewares/Third_Party/FatFs/src/ff.h:
+../../FATFS/Target/sd_diskio.h:
 ../../TouchGFX/App/app_touchgfx.h:
 ../../Drivers/BSP/STM32H7B3I-DK/stm32h7b3i_discovery_ospi.h:
 ../../Core/Inc/stm32h7b3i_discovery_conf.h:
 ../../Drivers/BSP/STM32H7B3I-DK/stm32h7b3i_discovery_errno.h:
 ../../Drivers/BSP/STM32H7B3I-DK/../Components/mx25lm51245g/mx25lm51245g.h:
 ../../Core/Inc/mx25lm51245g_conf.h:
+../../Drivers/BSP/Components/SDCard/SDCard.h:

@@ -7,7 +7,9 @@ C:/Users/vkaiser.JAKTOOL/Documents/_LocalRepo/_STM32/TouchGFX_Workshop/STM32H7B3
 C:/Users/vkaiser.JAKTOOL/Documents/_LocalRepo/_STM32/TouchGFX_Workshop/STM32H7B3i-DK_TouchGFX_BaseProject/Core/Src/stm32h7xx_hal_msp.c:227:6:HAL_I2C_MspDeInit	16	static
 C:/Users/vkaiser.JAKTOOL/Documents/_LocalRepo/_STM32/TouchGFX_Workshop/STM32H7B3i-DK_TouchGFX_BaseProject/Core/Src/stm32h7xx_hal_msp.c:258:6:HAL_LTDC_MspInit	248	static
 C:/Users/vkaiser.JAKTOOL/Documents/_LocalRepo/_STM32/TouchGFX_Workshop/STM32H7B3i-DK_TouchGFX_BaseProject/Core/Src/stm32h7xx_hal_msp.c:361:6:HAL_LTDC_MspDeInit	16	static
-C:/Users/vkaiser.JAKTOOL/Documents/_LocalRepo/_STM32/TouchGFX_Workshop/STM32H7B3i-DK_TouchGFX_BaseProject/Core/Src/stm32h7xx_hal_msp.c:426:6:HAL_OSPI_MspInit	216	static
-C:/Users/vkaiser.JAKTOOL/Documents/_LocalRepo/_STM32/TouchGFX_Workshop/STM32H7B3i-DK_TouchGFX_BaseProject/Core/Src/stm32h7xx_hal_msp.c:472:6:HAL_OSPI_MspDeInit	16	static
-C:/Users/vkaiser.JAKTOOL/Documents/_LocalRepo/_STM32/TouchGFX_Workshop/STM32H7B3i-DK_TouchGFX_BaseProject/Core/Src/stm32h7xx_hal_msp.c:498:6:HAL_UART_MspInit	240	static
-C:/Users/vkaiser.JAKTOOL/Documents/_LocalRepo/_STM32/TouchGFX_Workshop/STM32H7B3i-DK_TouchGFX_BaseProject/Core/Src/stm32h7xx_hal_msp.c:545:6:HAL_UART_MspDeInit	16	static
+C:/Users/vkaiser.JAKTOOL/Documents/_LocalRepo/_STM32/TouchGFX_Workshop/STM32H7B3i-DK_TouchGFX_BaseProject/Core/Src/stm32h7xx_hal_msp.c:426:6:HAL_OSPI_MspInit	24	static
+C:/Users/vkaiser.JAKTOOL/Documents/_LocalRepo/_STM32/TouchGFX_Workshop/STM32H7B3i-DK_TouchGFX_BaseProject/Core/Src/stm32h7xx_hal_msp.c:453:6:HAL_OSPI_MspDeInit	16	static
+C:/Users/vkaiser.JAKTOOL/Documents/_LocalRepo/_STM32/TouchGFX_Workshop/STM32H7B3i-DK_TouchGFX_BaseProject/Core/Src/stm32h7xx_hal_msp.c:479:6:HAL_SD_MspInit	48	static
+C:/Users/vkaiser.JAKTOOL/Documents/_LocalRepo/_STM32/TouchGFX_Workshop/STM32H7B3i-DK_TouchGFX_BaseProject/Core/Src/stm32h7xx_hal_msp.c:528:6:HAL_SD_MspDeInit	16	static
+C:/Users/vkaiser.JAKTOOL/Documents/_LocalRepo/_STM32/TouchGFX_Workshop/STM32H7B3i-DK_TouchGFX_BaseProject/Core/Src/stm32h7xx_hal_msp.c:564:6:HAL_UART_MspInit	240	static
+C:/Users/vkaiser.JAKTOOL/Documents/_LocalRepo/_STM32/TouchGFX_Workshop/STM32H7B3i-DK_TouchGFX_BaseProject/Core/Src/stm32h7xx_hal_msp.c:611:6:HAL_UART_MspDeInit	16	static

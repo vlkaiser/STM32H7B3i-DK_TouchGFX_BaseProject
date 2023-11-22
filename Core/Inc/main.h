@@ -59,6 +59,8 @@ void Error_Handler(void);
 /* Private defines -----------------------------------------------------------*/
 #define LED3_Pin GPIO_PIN_11
 #define LED3_GPIO_Port GPIOG
+#define uSD_Detect_Pin GPIO_PIN_8
+#define uSD_Detect_GPIO_Port GPIOI
 #define MCU_ACTIVE_Pin GPIO_PIN_0
 #define MCU_ACTIVE_GPIO_Port GPIOI
 #define VSYNC_FREQ_Pin GPIO_PIN_12
